@@ -196,7 +196,7 @@ input, select, textarea {
 		}
 
 	h1 {
-		font-size: 4rem;
+		font-size: 2rem;
 		line-height: 1.1;
 		margin: 0 0 2rem 0;
 	}
@@ -3787,7 +3787,6 @@ input, select, textarea {
 			}
 
 			#main > .post header.major > h1, #main > .post header.major h2 {
-				font-size: 4rem;
 				line-height: 1.1;
 				margin: 0 0 2rem 0;
 			}
@@ -3946,7 +3945,11 @@ input, select, textarea {
 		}
 
 /* Footer */
-
+.contact {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
 	#footer {
 		color: #717981;
 		display: -moz-flex;
@@ -3961,6 +3964,8 @@ input, select, textarea {
 		width: calc(100% - 4rem);
 		max-width: 72rem;
 		z-index: 2;
+		align-items: center;
+		justify-content: center;
 	}
 
 		#footer input, #footer select, #footer textarea {
